@@ -2,7 +2,3 @@
     color: #FFFFFF;
     margin-bottom: 50px;
 }
-
-.header__title::first-line {
-    font-weight: 400;
-}

@@ -1,0 +1,13 @@
+.features {
+    padding: 80px 0;
+}
+
+.features-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .features__title {
+    line-height: 65px;
+    margin-bottom: 55px;
+}
