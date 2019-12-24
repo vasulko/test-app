@@ -1,0 +1,149 @@
+.chat__typing-message .chat__avatar {
+    margin: 0;
+}
+
+.chat__typing-message {
+    display: flex;
+}
+
+.chat__typing-message_profile-2 {
+    flex-direction: row-reverse;
+}
+
+.chat__typing-message_profile-2 .chat__avatar {
+    margin-left: 10px;
+}
+
+.chat__typing-message_profile-1 .chat__avatar {
+    margin-right: 10px;
+}
+
+.chat__typing-animation {
+    width: 40px;
+    height: 20px;
+    background: #E0E0E0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.chat__typing-animation .circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.chat__typing-animation .circle-3 {
+    animation: cycleThree 1s ease-in-out infinite;
+}
+
+.chat__typing-animation .circle-2 {
+    animation: cycleTwo 1s ease-in-out infinite;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.chat__typing-animation .circle-1 {
+    animation: cycleOne 1s ease-in-out infinite;
+}
+
+.chat__typing-message_profile-1  {
+    opacity: 0;
+    animation-name: switcher-1;
+    animation-duration: 8.1s;
+    animation-iteration-count: infinite;
+}
+
+.chat__typing-message_profile-2  {
+    opacity: 0;
+    animation-name: switcher-2;
+    animation-duration: 8.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycleOne{
+    0%{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    50%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+    100%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+@keyframes cycleTwo{
+    0%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+    50%{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    100%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+@keyframes cycleThree{
+    0%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+    50%{
+        background: rgba(0, 0, 0, 0.1);
+    }
+    100%{
+        background: rgba(0, 0, 0,0.5);
+    }
+}
+
+@keyframes switcher-2 {
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    50.01%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    75.01%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes switcher-1 {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    25.01%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}

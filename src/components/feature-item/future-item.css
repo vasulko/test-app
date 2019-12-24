@@ -1,5 +1,4 @@
 .feature-item {
-    max-width: 357px;
     width: 30%;
 }
 
@@ -10,9 +9,6 @@
 
 .feature-item__title {
     margin: 20px 0 0 0;
-    padding: 0;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     letter-spacing: 0.016em;
     color: #333333;

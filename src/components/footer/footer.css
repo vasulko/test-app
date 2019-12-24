@@ -1,0 +1,18 @@
+.footer .footer__container {
+    padding-top: 55px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__logo-copyright .logo {
+    margin-bottom: 130px;
+}
+
+.footer__navigations {
+    display: flex;
+}

@@ -1,5 +1,5 @@
 .features {
-    padding: 80px 0;
+    background: #FFFFFF;
 }
 
 .features-wrap {
@@ -7,7 +7,10 @@
     justify-content: space-between;
 }
 
+.features__container {
+    padding: 80px 0;
+}
+
 .features .features__title {
-    line-height: 65px;
     margin-bottom: 55px;
 }

@@ -32,15 +32,15 @@ const Features = () => {
     });
 
     return(
-        <main className="features">
-            <div className="container">
+        <section className="features">
+            <div className="container features__container">
                 <h2 className='title features__title'>Powered by artificial intelligence <br />
                     Designed by travelers</h2>
                 <div className="features-wrap">
                     {items}
                 </div>
             </div>
-        </main>
+        </section>
     );
 };
 

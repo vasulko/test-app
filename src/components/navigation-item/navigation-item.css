@@ -1,0 +1,14 @@
+.navigation__caption{
+    color: #FFFFFF;
+}
+
+.navigation__link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.navigation__link:hover {
+    text-decoration: underline;
+}

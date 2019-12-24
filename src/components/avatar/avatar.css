@@ -1,0 +1,15 @@
+.chat__avatar {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #FFFFFF;
+    color: #2F80ED;
+    border-radius: 50%;
+    font-size: 14px;
+}
+

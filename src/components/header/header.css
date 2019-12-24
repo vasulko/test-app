@@ -6,11 +6,9 @@
     ),
     url('img/header-img.png') no-repeat center top;
     background-size: cover;
-    padding-bottom: 200px;
-    padding-top: 15px;
 }
 
-.header__wrap {
-    display: flex;
-    flex-direction: column;
+.header__container {
+    padding-bottom: 200px;
+    padding-top: 15px;
 }

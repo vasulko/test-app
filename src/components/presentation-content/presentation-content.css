@@ -1,0 +1,16 @@
+.presentation__content {
+    width: 620px;
+    margin-top: 60px;
+}
+
+.presentation__description {
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.016em;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.presentation__description p:first-of-type {
+    margin-bottom: 25px;
+}

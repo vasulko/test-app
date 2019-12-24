@@ -1,0 +1,61 @@
+.message {
+    max-width: 100%;
+    transform: translateY(370px);
+    max-height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.message_person_profile-2 {
+    flex-direction: row-reverse;
+}
+
+.message {
+    animation-name: message-moving;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes message-moving {
+    0% {
+        transform: translateY(370px);
+    }
+    12.5% {
+        transform: translateY(370px);
+    }
+
+
+    25% {
+        transform: translateY(190px);
+    }
+    37.5% {
+        transform: translateY(190px);
+    }
+
+
+    50% {
+        transform: translateY(0px);
+    }
+    62.5% {
+        transform: translateY(0px);
+    }
+
+
+    75%{
+        transform: translateY(-190px);
+    }
+
+    87.5% {
+        transform: translateY(-190px);
+    }
+
+    95% {
+        transform: translateY(-380px);
+    }
+    100%{
+        transform: translateY(-380px);
+    }
+}

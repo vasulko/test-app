@@ -5,6 +5,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    background: linear-gradient(122.77deg, #2F80ED 0%, #17345C 98.9%);
 }
 
 .container {
@@ -26,4 +27,17 @@ body {
 
 .title::first-line {
     font-weight: 400;
+}
+
+.title_color_white {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.chat__btn:hover {
+    background-color: #FFF;
+}
+
+.chat__btn:hover ~ .chat__btn-label{
+    color: #FFF;
 }

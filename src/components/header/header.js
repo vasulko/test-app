@@ -1,17 +1,14 @@
 import React from 'react';
-import HeaderTop from "./header-top";
-import HeaderMain from "./header-main";
+import HeaderSocial from "../header-social";
+import HeaderMain from "../header-main";
 import './header.css';
 
 const Header = () => {
     return (
         <header className='header'>
-            <div className='container'>
-                <div className="wrap header__wrap">
-                    <HeaderTop />
+            <div className='container header__container'>
+                    <HeaderSocial />
                     <HeaderMain />
-                </div>
-
             </div>
         </header>
     );

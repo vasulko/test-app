@@ -1,0 +1,24 @@
+.header__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.social{
+    display: flex;
+}
+.social__icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.social__btn {
+    cursor: pointer;
+}
+
+.social__btn-fb {
+    margin-right: 20px;
+}
+

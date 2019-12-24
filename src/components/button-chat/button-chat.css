@@ -1,0 +1,32 @@
+.wrap__btn {
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat__btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px;
+    transition: 500ms;
+}
+
+.chat__btn-label{
+    color: rgba(255, 255, 255, 0.5);
+}
+.chat__btn-type-shopping {
+    background: rgba(255, 255, 255, 0.5) url('img/shopping.png') no-repeat center;
+}
+
+.chat__btn-type-nightLife {
+    background: rgba(255, 255, 255, 0.5) url('img/nightLife.png') no-repeat center;
+}
+
+.chat__btn-type-food {
+    background: rgba(255, 255, 255, 0.5) url('img/food.png') no-repeat center;
+}
+

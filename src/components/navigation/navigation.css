@@ -1,0 +1,10 @@
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.navigation_type_social {
+    margin-right: 50px;
+}
