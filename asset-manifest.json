@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/test-app/static/css/main.d1b05096.chunk.css",
-    "main.js": "/test-app/static/js/main.5cf4fbc5.chunk.js",
-    "main.js.map": "/test-app/static/js/main.5cf4fbc5.chunk.js.map",
+    "main.css": "/test-app/static/css/main.5cd94716.chunk.css",
+    "main.js": "/test-app/static/js/main.2aba3927.chunk.js",
+    "main.js.map": "/test-app/static/js/main.2aba3927.chunk.js.map",
     "runtime-main.js": "/test-app/static/js/runtime-main.8424f9d1.js",
     "runtime-main.js.map": "/test-app/static/js/runtime-main.8424f9d1.js.map",
-    "static/js/2.994851ff.chunk.js": "/test-app/static/js/2.994851ff.chunk.js",
-    "static/js/2.994851ff.chunk.js.map": "/test-app/static/js/2.994851ff.chunk.js.map",
+    "static/js/2.7fa3b2d5.chunk.js": "/test-app/static/js/2.7fa3b2d5.chunk.js",
+    "static/js/2.7fa3b2d5.chunk.js.map": "/test-app/static/js/2.7fa3b2d5.chunk.js.map",
     "index.html": "/test-app/index.html",
-    "precache-manifest.805d2beaaf8d1dab13d5a512820fd0e1.js": "/test-app/precache-manifest.805d2beaaf8d1dab13d5a512820fd0e1.js",
+    "precache-manifest.69546a43aa5bf885881274350574f8f9.js": "/test-app/precache-manifest.69546a43aa5bf885881274350574f8f9.js",
     "service-worker.js": "/test-app/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/test-app/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.994851ff.chunk.js.LICENSE": "/test-app/static/js/2.994851ff.chunk.js.LICENSE",
-    "static/media/logo.svg": "/test-app/static/media/logo.5d5d9eef.svg"
+    "static/css/main.5cd94716.chunk.css.map": "/test-app/static/css/main.5cd94716.chunk.css.map",
+    "static/js/2.7fa3b2d5.chunk.js.LICENSE": "/test-app/static/js/2.7fa3b2d5.chunk.js.LICENSE",
+    "static/media/food.png": "/test-app/static/media/food.3f61506f.png",
+    "static/media/header.css": "/test-app/static/media/header-img.db1f5974.png",
+    "static/media/image.png": "/test-app/static/media/image.fc142906.png",
+    "static/media/nightLife.png": "/test-app/static/media/nightLife.f3d12ca9.png",
+    "static/media/shopping.png": "/test-app/static/media/shopping.776f01e3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8424f9d1.js",
-    "static/js/2.994851ff.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.5cf4fbc5.chunk.js"
+    "static/js/2.7fa3b2d5.chunk.js",
+    "static/css/main.5cd94716.chunk.css",
+    "static/js/main.2aba3927.chunk.js"
   ]
 }
