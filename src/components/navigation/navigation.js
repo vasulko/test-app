@@ -6,7 +6,6 @@ import './navigation.css';
 const Navigation = ({ data, place, type }) => {
 
         const itemsList = data.map((item)=>{
-            console.log(item);
             return (
                 <NavigationItem
                     {...item}
