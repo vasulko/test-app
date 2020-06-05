@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can look at app: https://vasulko.github.io/test-app/
+You can look at app: https://vasyl-bz.github.io/test-app/
 
 ## Available Scripts
 
